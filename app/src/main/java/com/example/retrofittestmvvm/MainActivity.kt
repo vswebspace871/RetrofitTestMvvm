@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
         recyclerView.layoutManager = LinearLayoutManager(this)
 
         val apiInterface = RetrofitClient.getService()
+        //ht
 
         val memesRepository = MemesRepository(apiInterface)
 
